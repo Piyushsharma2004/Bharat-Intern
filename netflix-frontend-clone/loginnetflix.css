@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.top-nav-section {
+    background-image: radial-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.9)), url("images/header-img.jpg");
+    background-size: cover;
+    height: 110vh;
+    width: 100%;
+}
+
+.top-nav-section-navbar {
+
+    margin-left: 18px;
+    padding-top: 30px;
+}
+
+.top-nav-section-navbar-icon {
+    height: 35px;
+    padding-top: 4px;
+}
+
+.login-card-div {
+    width: 100%;
+
+}
+
+.login-card {
+    height: 90vh;
+    width: 450px;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding-top: 3%;
+    padding-left: 2%;
+    padding-right: 1%;
+    margin-top: 5vh;
+
+}
+
+.login-card-heading {
+    font-size: 35px;
+    color: white;
+    font-family: "Roboto";
+    font-weight: 600;
+}
+
+.top-middle-section-email-div {
+    width: 100%;
+}
+
+.top-middle-section-email {
+    background-color: #3b3b3b;
+    height: 55px;
+    color: white;
+    width: 100%;
+    border: none;
+
+    border-radius: 6px;
+
+    margin-top: 15px;
+
+
+}
+
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #dddddd;
+    opacity: 1;
+    /* Firefox */
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #dddddd;
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #dddddd;
+}
+
+
+
+.login-card-password {
+    background-color: #3b3b3b;
+    height: 55px;
+    color: white;
+    width: 100%;
+
+    border: 1px solid white;
+    border-radius: 6px;
+
+    margin-top: 15px;
+    border-bottom: solid;
+    border-color: #ff531c;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 3px;
+
+}
+
+.login-card-password-div-text {
+    padding-top: 5px;
+    color: #ff531c;
+
+}
+
+.login-card-button {
+    width: 100%;
+    background-color: #ff0c0c;
+    height: 55px;
+    margin-top: 8%;
+}
+
+.login-card-button-link {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+.login-card-check-text {
+    color: #c4c4c4;
+    padding-left: 2px;
+    font-size: 14px;
+}
+
+.login-card-check-help-right {
+    text-align-last: right;
+}
+
+.login-card-check-help {
+    color: #c4c4c4;
+    font-size: 12px;
+}
+
+.login-card-new-heading {
+    font-size: 16px;
+    color: #c4c4c4;
+    font-weight: 200;
+}
+
+.login-card-sign-up {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    padding-left: 5px;
+    font-weight: 400;
+}
+
+.login-card-new-sub-heading {
+    font-size: 14px;
+    color: #c4c4c4;
+    font-weight: 200;
+}
+
+.login-card-learn {
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.Sign-ip-margin {
+    margin-bottom: 7px;
+}
+
+.form-margin {
+    margin-bottom: 5%;
+}
+
+.grey-line {
+    height: 8px;
+    width: 100%;
+    background-color: #414141;
+
+}
+
+.help-footer {
+    background-color: black;
+    height: 80vh;
+    padding-left: 2%;
+
+}
+
+.help-footer-contact {
+    margin-top: 5%;
+    margin-bottom: 2%;
+
+}
+
+.help-footer-text {
+    font-size: 14px;
+    color: white;
+}
+
+.help-footer-number {
+    font-size: 14px;
+    color: white;
+}
+
+.help-footer-links {
+    font-size: 12px;
+    color: white;
+}
+
+.help-footer-lang {
+    margin-top: 4%;
+}
+
+.help-footer-countory-text {
+    font-size: 14px;
+    color: white;
+    padding-top: 4%;
+}
+
+.top-nav-section-navbar-lang-div {
+    border: solid;
+    border-width: 1px;
+    border-color: white;
+    width: 120px;
+    height: 35px;
+    text-align: center;
+    border-radius: 3px;
+    background-color: transparent;
+    padding-bottom: 3px;
+    margin-right: 110px;
+
+}
+
+.top-nav-section-navbar-lang {
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-color: transparent;
+    cursor: pointer;
+    user-select: none;
+
+}
+
+.top-nav-section-navbar-lang-text {
+    color: white;
+}
+
+.globe-icon {
+    color: white;
+
+}

@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+.top-nav-section {
+    background-image: radial-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.9)), url("images/header-img.jpg");
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+
+}
+
+.top-nav-section-navbar {
+
+    margin-left: 18px;
+    padding-top: 30px;
+}
+
+.top-nav-section-navbar-icon {
+    height: 35px;
+    padding-top: 4px;
+}
+
+.top-nav-section-navbar-side {
+    position: absolute;
+    right: 0;
+}
+
+.top-nav-section-navbar-lang-div {
+    border: solid;
+    border-width: 1px;
+    border-color: white;
+    width: 120px;
+    height: 35px;
+    text-align: center;
+    border-radius: 3px;
+    background-color: transparent;
+    padding-bottom: 3px;
+    margin-right: 110px;
+
+}
+
+.globe-icon {
+    color: white;
+
+}
+
+.top-nav-section-navbar-lang {
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-color: transparent;
+    cursor: pointer;
+    user-select: none;
+
+}
+
+.top-nav-section-navbar-lang-text {
+    color: white;
+}
+
+.top-nav-section-navbar-sign-btn {
+    margin-left: 10px;
+    background-color: #ff0c0c;
+    width: 90px;
+    margin-right: 10px;
+}
+
+.top-nav-section-navbar-sign-btn-link {
+    text-decoration: none;
+    color: white;
+}
+
+
+.top-middle-section {
+    text-align: center;
+    height: 70vh;
+    padding-left: 20px;
+    margin-right: 20px;
+}
+
+.top-middle-section-heading {
+    color: white;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.top-middle-section-sub-heading {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Roboto";
+}
+
+.top-middle-section-sub-detail {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Roboto";
+}
+
+.top-middle-section-email {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 55px;
+    color: white;
+
+    border: 1px solid white;
+    border-radius: 6px;
+    width: 80%;
+    margin-top: 15px;
+}
+
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #dddddd;
+    opacity: 1;
+    /* Firefox */
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #dddddd;
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #dddddd;
+}
+
+.top-middle-section-button {
+    background-color: #ff0c0c;
+    height: 55px;
+    width: 180px;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 15px;
+
+}
+
+.top-middle-section-button-arrow {
+    width: 24px;
+    height: 24px;
+    color: white;
+}
+
+.grey-line {
+    height: 7px;
+    width: 100%;
+    background-color: #3e3e3e;
+    border: none;
+
+}
+
+.Tv-ad-section {
+    height: 80vh;
+    background-color: black;
+    text-align: center;
+
+}
+
+.Tv-ad-section-margin {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.Tv-ad-section-heading {
+    color: white;
+    font-size: 35px;
+    font-weight: 700;
+    font-family: "Roboto";
+}
+
+.Tv-ad-section-sub-heading {
+    color: white;
+    font-size: 20px;
+    font-family: "Roboto";
+
+}
+
+
+.media {
+    position: relative;
+
+}
+
+.media.s1 img {
+    width: 69%;
+
+}
+
+.media.s1 video {
+    width: 50.5%;
+    position: absolute;
+    top: 21%;
+    left: 24.5%;
+}
+
+.download-section {
+    height: 80vh;
+    background-color: black;
+    text-align: center;
+
+}
+
+.download-section-heading {
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Roboto";
+}
+
+.download-section-sub-heading {
+    color: white;
+    font-size: 20px;
+    font-family: "Roboto";
+}
+
+.download-section-image {
+    width: 100%;
+}
+
+.Asked-Questions-section {
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+    background-color: black;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
+.Asked-Questions-section-heading {
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+    font-family: "Roboto";
+    text-align: center;
+    padding-bottom: 2%;
+
+}
+
+.Asked-Questions-section-button-margin {
+    margin-bottom: 1%;
+
+}
+
+.Asked-Questions-section-button {
+    width: 100%;
+
+    border-radius: 1px;
+    height: 65px;
+
+    border: none;
+
+
+    background-color: #2d2d2d;
+}
+
+.Asked-Questions-section-button-left {}
+
+.Asked-Questions-section-button-right {}
+
+.Asked-Questions-section-button-left-div {
+    text-align-last: left;
+    padding-left: 2%;
+
+}
+
+.Asked-Questions-section-button-right-div {
+    text-align-last: right;
+    padding-right: 4%;
+}
+
+.Asked-Questions-section-button-a {
+    width: 100%;
+    text-decoration: none;
+    font-size: 50%;
+    color: white;
+    font-weight: 400;
+}
+
+.Asked-Questions-section-collapse {
+    width: 100%;
+    background-color: #303030;
+    border: none;
+    margin-top: 1%;
+    color: white;
+    font-size: 17px;
+    padding: 2%;
+    margin-bottom: 1%;
+}
+
+.Asked-Questions-section-Sub-heading {
+    color: white;
+    font-size: 20px;
+    font-family: "Roboto";
+    padding-top: 3%;
+    text-align: center;
+}
+
+.Asked-Questions-section-email {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 55px;
+    color: white;
+
+    border: 1px solid white;
+    border-radius: 6px;
+    width: 80%;
+    margin-top: 15px;
+}
+
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #dddddd;
+    opacity: 1;
+    /* Firefox */
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #dddddd;
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #dddddd;
+}
+
+.Asked-Questions-section-start-button {
+    background-color: #ff0c0c;
+    height: 55px;
+    width: 180px;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 15px;
+
+}
+
+.help-footer {
+    background-color: black;
+    height: 80vh;
+    padding-left: 2%;
+
+}
+
+.help-footer-contact {
+    margin-top: 5%;
+    margin-bottom: 2%;
+
+}
+
+.help-footer-text {
+    font-size: 14px;
+    color: white;
+}
+
+.help-footer-number {
+    font-size: 14px;
+    color: white;
+}
+
+.help-footer-links {
+    font-size: 12px;
+    color: white;
+}
+
+.help-footer-lang {
+    margin-top: 4%;
+}
+
+.help-footer-countory-text {
+    font-size: 14px;
+    color: white;
+    padding-top: 4%;
+}

@@ -1,0 +1,1124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-16">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2016.ico">
+
+    <script src="https://kit.fontawesome.com/d090e259b2.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=0.9">
+     <link rel="stylesheet" href="signupnetflix.css">
+    <title> Netflix Pro (Piyush)</title>
+</head>
+
+<body>
+    <div id="section1">
+        <div class="sign-up-page ">
+            <div class="sign-up-page-navbar d-flex flex-column justify-content-center">
+                <div class="container-fluid ">
+                    <div class="row">
+                        <div class="sign-up-page-navbar-logo col-9 col-sm-9 col-md-9 col-lg-9 col-xl-9 ">
+
+                            <a href="index.html"> <img
+                                    src="images/logo.png"
+                                    class="sign-up-page-navbar-logo-img" /></a>
+                        </div>
+                        <div class="sign-up-page-navbar-sign col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                            <a href="loginnetflix.html" class="sign-up-page-navbar-sign-text">Sign In</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--all device card-->
+        <div class="all-device-card d-flex flex-column justify-content-center">
+            <div class="all-device-card-container col-12 col-sm-12 col-mg-12 col-lg-12 col-xl">
+                <img src="images/all-device.png"
+                    class="all-device-card-img" />
+                <h2 class="all-device-card-sub-heading">STEP 1 OF 3</h2>
+                <h1 class="all-device-card-heading">Finish setting up your<br> account</h1>
+                <p class="all-device-card-detail">Netflix is personalised for you.<br> Create a password to watch on any
+                    <br>device at any time.</p>
+                <button class="all-device-card-button btn btn-danger" onclick="display('section2')">Next</button>
+            </div>
+        </div>
+
+
+        <!--footer-section-->
+        <div class="help-footer">
+            <div class="container-fluid">
+                <div class="row">
+
+
+                    <div class="help-footer-contact d-flex col-12 col-sm-12 col-md-12 col-lg-12 col-md-12">
+                        <h1 class="help-footer-text">Questions? Call to Piyush</h1> <a href="#"
+                            class="help-footer-number">+91 94609-94274</a>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3"><a class="help-footer-links" href="#">FAQ
+                        </a></div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3"><a class="help-footer-links" href="#">Term
+                            of Use </a></div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3"><a class="help-footer-links"
+                            href="#">Coroporate information </a></div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3"><a class="help-footer-links" href="#">Help
+                            Center </a></div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3"><a class="help-footer-links"
+                            href="#">Privacy</a></div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3"><a class="help-footer-links"
+                            href="#">Netflix Shop</a></div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3"><a class="help-footer-links" href="#">Cookie
+                            Perferences</a></div>
+                    <div class="help-footer-lang col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                        <button class="top-nav-section-navbar-lang-div"> <svg xmlns="http://www.w3.org/2000/svg"
+                                width="16" height="16" fill="currentColor" class="globe-icon bi bi-globe2"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855-.143.268-.276.56-.395.872.705.157 1.472.257 2.282.287V1.077zM4.249 3.539c.142-.384.304-.744.481-1.078a6.7 6.7 0 0 1 .597-.933A7.01 7.01 0 0 0 3.051 3.05c.362.184.763.349 1.198.49zM3.509 7.5c.036-1.07.188-2.087.436-3.008a9.124 9.124 0 0 1-1.565-.667A6.964 6.964 0 0 0 1.018 7.5h2.49zm1.4-2.741a12.344 12.344 0 0 0-.4 2.741H7.5V5.091c-.91-.03-1.783-.145-2.591-.332zM8.5 5.09V7.5h2.99a12.342 12.342 0 0 0-.399-2.741c-.808.187-1.681.301-2.591.332zM4.51 8.5c.035.987.176 1.914.399 2.741A13.612 13.612 0 0 1 7.5 10.91V8.5H4.51zm3.99 0v2.409c.91.03 1.783.145 2.591.332.223-.827.364-1.754.4-2.741H8.5zm-3.282 3.696c.12.312.252.604.395.872.552 1.035 1.218 1.65 1.887 1.855V11.91c-.81.03-1.577.13-2.282.287zm.11 2.276a6.696 6.696 0 0 1-.598-.933 8.853 8.853 0 0 1-.481-1.079 8.38 8.38 0 0 0-1.198.49 7.01 7.01 0 0 0 2.276 1.522zm-1.383-2.964A13.36 13.36 0 0 1 3.508 8.5h-2.49a6.963 6.963 0 0 0 1.362 3.675c.47-.258.995-.482 1.565-.667zm6.728 2.964a7.009 7.009 0 0 0 2.275-1.521 8.376 8.376 0 0 0-1.197-.49 8.853 8.853 0 0 1-.481 1.078 6.688 6.688 0 0 1-.597.933zM8.5 11.909v3.014c.67-.204 1.335-.82 1.887-1.855.143-.268.276-.56.395-.872A12.63 12.63 0 0 0 8.5 11.91zm3.555-.401c.57.185 1.095.409 1.565.667A6.963 6.963 0 0 0 14.982 8.5h-2.49a13.36 13.36 0 0 1-.437 3.008zM14.982 7.5a6.963 6.963 0 0 0-1.362-3.675c-.47.258-.995.482-1.565.667.248.92.4 1.938.437 3.008h2.49zM11.27 2.461c.177.334.339.694.482 1.078a8.368 8.368 0 0 0 1.196-.49 7.01 7.01 0 0 0-2.275-1.52c.218.283.418.597.597.932zm-.488 1.343a7.765 7.765 0 0 0-.395-.872C9.835 1.897 9.17 1.282 8.5 1.077V4.09c.81-.03 1.577-.13 2.282-.287z" />
+                            </svg>
+                            <select class="top-nav-section-navbar-lang justify-content-end">
+
+                                <option class="top-nav-section-navbar-lang-text" value="English">English</option>
+                                <option class="top-nav-section-navbar-lang-text" value="hindi">हिन्दी</option>
+                                <option class="top-nav-section-navbar-lang-text" value="talugu">తెలుగు</option>
+                                <option class="top-nav-section-navbar-lang-text" value="tamil">தமிழ்</option>
+                            </select>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!--section 2 -->
+
+
+    <div id="section2">
+        <div class="sign-up-page ">
+            <div class="sign-up-page-navbar d-flex flex-column justify-content-center">
+                <div class="container-fluid ">
+                    <div class="row">
+                        <div class="sign-up-page-navbar-logo col-9 col-sm-9 col-md-9 col-lg-9 col-xl-9 ">
+
+                            <a href="index.html"> <img
+                                    src="images/logo.png"
+                                    class="sign-up-page-navbar-logo-img" /></a>
+                        </div>
+                        <div class="sign-up-page-navbar-sign col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                            <a href="loginnetflix.html" class="sign-up-page-navbar-sign-text">Sign In</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--section-2 card-->
+
+        <div class="section-2-card d-flex flex-row justify-content-center">
+            <div class="section-2-card-container ">
+
+
+                <h2 class="section-2-card-sub-heading">STEP 2 OF 3</h2>
+                <h1 class="section-2-card-heading">Create a password to Start your membership</h1>
+                <p class="section-2-card-detail">Just a few more steps and you're done! We hate paperwork, too. </p>
+                <div class="form-group">
+                    <input type="email" class="email-form form-control" id="exampleInputEmail1"
+                        aria-describedby="emailHelp" placeholder="Email">
+                </div>
+                <div class="form-group">
+
+                    <input type="password" class="password-form form-control" id="exampleInputPassword1"
+                        placeholder="Add a Password">
+                </div>
+                <button class="section-2-card-button btn btn-danger" onclick="display('section3')">Next</button>
+            </div>
+
+        </div>
+
+
+
+
+
+
+        <!--footer-section-->
+
+        <div class="help-footer">
+            <div class="container-fluid">
+                <div class="row">
+
+
+                    <div class="help-footer-contact d-flex col-12 col-sm-12 col-md-12 col-lg-12 col-md-12">
+                        <h1 class="help-footer-text">Questions? Call to Piyush</h1> <a href="#"
+                            class="help-footer-number">+91 94609-94274</a>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3"><a class="help-footer-links" href="#">FAQ
+                        </a></div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3"><a class="help-footer-links" href="#">Term
+                            of Use </a></div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3"><a class="help-footer-links"
+                            href="#">Coroporate information </a></div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3"><a class="help-footer-links" href="#">Help
+                            Center </a></div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3"><a class="help-footer-links"
+                            href="#">Privacy</a></div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3"><a class="help-footer-links"
+                            href="#">Netflix Shop</a></div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3"><a class="help-footer-links" href="#">Cookie
+                            Perferences</a></div>
+                    <div class="help-footer-lang col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                        <button class="top-nav-section-navbar-lang-div"> <svg xmlns="http://www.w3.org/2000/svg"
+                                width="16" height="16" fill="currentColor" class="globe-icon bi bi-globe2"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855-.143.268-.276.56-.395.872.705.157 1.472.257 2.282.287V1.077zM4.249 3.539c.142-.384.304-.744.481-1.078a6.7 6.7 0 0 1 .597-.933A7.01 7.01 0 0 0 3.051 3.05c.362.184.763.349 1.198.49zM3.509 7.5c.036-1.07.188-2.087.436-3.008a9.124 9.124 0 0 1-1.565-.667A6.964 6.964 0 0 0 1.018 7.5h2.49zm1.4-2.741a12.344 12.344 0 0 0-.4 2.741H7.5V5.091c-.91-.03-1.783-.145-2.591-.332zM8.5 5.09V7.5h2.99a12.342 12.342 0 0 0-.399-2.741c-.808.187-1.681.301-2.591.332zM4.51 8.5c.035.987.176 1.914.399 2.741A13.612 13.612 0 0 1 7.5 10.91V8.5H4.51zm3.99 0v2.409c.91.03 1.783.145 2.591.332.223-.827.364-1.754.4-2.741H8.5zm-3.282 3.696c.12.312.252.604.395.872.552 1.035 1.218 1.65 1.887 1.855V11.91c-.81.03-1.577.13-2.282.287zm.11 2.276a6.696 6.696 0 0 1-.598-.933 8.853 8.853 0 0 1-.481-1.079 8.38 8.38 0 0 0-1.198.49 7.01 7.01 0 0 0 2.276 1.522zm-1.383-2.964A13.36 13.36 0 0 1 3.508 8.5h-2.49a6.963 6.963 0 0 0 1.362 3.675c.47-.258.995-.482 1.565-.667zm6.728 2.964a7.009 7.009 0 0 0 2.275-1.521 8.376 8.376 0 0 0-1.197-.49 8.853 8.853 0 0 1-.481 1.078 6.688 6.688 0 0 1-.597.933zM8.5 11.909v3.014c.67-.204 1.335-.82 1.887-1.855.143-.268.276-.56.395-.872A12.63 12.63 0 0 0 8.5 11.91zm3.555-.401c.57.185 1.095.409 1.565.667A6.963 6.963 0 0 0 14.982 8.5h-2.49a13.36 13.36 0 0 1-.437 3.008zM14.982 7.5a6.963 6.963 0 0 0-1.362-3.675c-.47.258-.995.482-1.565.667.248.92.4 1.938.437 3.008h2.49zM11.27 2.461c.177.334.339.694.482 1.078a8.368 8.368 0 0 0 1.196-.49 7.01 7.01 0 0 0-2.275-1.52c.218.283.418.597.597.932zm-.488 1.343a7.765 7.765 0 0 0-.395-.872C9.835 1.897 9.17 1.282 8.5 1.077V4.09c.81-.03 1.577-.13 2.282-.287z" />
+                            </svg>
+                            <select class="top-nav-section-navbar-lang justify-content-end">
+
+                                <option class="top-nav-section-navbar-lang-text" value="English">English</option>
+                                <option class="top-nav-section-navbar-lang-text" value="hindi">हिन्दी</option>
+                                <option class="top-nav-section-navbar-lang-text" value="talugu">తెలుగు</option>
+                                <option class="top-nav-section-navbar-lang-text" value="tamil">தமிழ்</option>
+                            </select>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--section-3-->
+    <div id="section3">
+        <div class="sign-up-page ">
+            <div class="sign-up-page-navbar d-flex flex-column justify-content-center">
+                <div class="container-fluid ">
+                    <div class="row">
+                        <div class="sign-up-page-navbar-logo col-9 col-sm-9 col-md-9 col-lg-9 col-xl-9 ">
+
+                            <a href="index.html"> <img
+                                    src="images/logo.png"
+                                    class="sign-up-page-navbar-logo-img" /></a>
+                        </div>
+                        <div class="sign-up-page-navbar-sign col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                            <a href="loginnetflix.html" class="sign-up-page-navbar-sign-text">Sign In</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--section-3 card-->
+
+        <div class="section-2-card d-flex flex-row justify-content-center">
+            <div class="section-2-card-container ">
+                <div class="section-3-top-icon">
+                    <i class="section-3-check-1-icon fa-sharp fa-regular fa-circle-check fa-2xl"></i>
+                    <h2 class="section-3-card-sub-heading">STEP 3 OF 4</h2>
+                </div>
+                <h1 class="section-2-card-heading">Choose Your plan</h1>
+                <p class="section-3-card-detail"><i class="section-3-check-2-icon fa-solid fa-check"></i>&ensp;No
+                    commitments, cancel anytime.</p>
+                <p class="section-3-card-detail"><i
+                        class="section-3-check-2-icon fa-solid fa-check"></i>&ensp;Everything on Netflix for one low
+                    price.</p>
+                <p class="section-3-card-detail"><i class="section-3-check-2-icon fa-solid fa-check"></i>&ensp;No ads
+                    and no extra fees. Ever.</p>
+
+                <button class="section-2-card-button btn btn-danger" onclick="display('section4')">Next</button>
+            </div>
+
+        </div>
+
+
+
+
+
+
+        <!--footer-section-->
+
+        <div class="help-footer">
+            <div class="container-fluid">
+                <div class="row">
+
+
+                    <div class="help-footer-contact d-flex col-12 col-sm-12 col-md-12 col-lg-12 col-md-12">
+                        <h1 class="help-footer-text">Questions? Call to Piyush</h1> <a href="#"
+                            class="help-footer-number">+91 94609-94274</a>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3"><a class="help-footer-links" href="#">FAQ
+                        </a></div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3"><a class="help-footer-links" href="#">Term
+                            of Use </a></div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3"><a class="help-footer-links"
+                            href="#">Coroporate information </a></div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3"><a class="help-footer-links" href="#">Help
+                            Center </a></div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3"><a class="help-footer-links"
+                            href="#">Privacy</a></div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3"><a class="help-footer-links"
+                            href="#">Netflix Shop</a></div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3"><a class="help-footer-links" href="#">Cookie
+                            Perferences</a></div>
+                    <div class="help-footer-lang col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                        <button class="top-nav-section-navbar-lang-div"> <svg xmlns="http://www.w3.org/2000/svg"
+                                width="16" height="16" fill="currentColor" class="globe-icon bi bi-globe2"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855-.143.268-.276.56-.395.872.705.157 1.472.257 2.282.287V1.077zM4.249 3.539c.142-.384.304-.744.481-1.078a6.7 6.7 0 0 1 .597-.933A7.01 7.01 0 0 0 3.051 3.05c.362.184.763.349 1.198.49zM3.509 7.5c.036-1.07.188-2.087.436-3.008a9.124 9.124 0 0 1-1.565-.667A6.964 6.964 0 0 0 1.018 7.5h2.49zm1.4-2.741a12.344 12.344 0 0 0-.4 2.741H7.5V5.091c-.91-.03-1.783-.145-2.591-.332zM8.5 5.09V7.5h2.99a12.342 12.342 0 0 0-.399-2.741c-.808.187-1.681.301-2.591.332zM4.51 8.5c.035.987.176 1.914.399 2.741A13.612 13.612 0 0 1 7.5 10.91V8.5H4.51zm3.99 0v2.409c.91.03 1.783.145 2.591.332.223-.827.364-1.754.4-2.741H8.5zm-3.282 3.696c.12.312.252.604.395.872.552 1.035 1.218 1.65 1.887 1.855V11.91c-.81.03-1.577.13-2.282.287zm.11 2.276a6.696 6.696 0 0 1-.598-.933 8.853 8.853 0 0 1-.481-1.079 8.38 8.38 0 0 0-1.198.49 7.01 7.01 0 0 0 2.276 1.522zm-1.383-2.964A13.36 13.36 0 0 1 3.508 8.5h-2.49a6.963 6.963 0 0 0 1.362 3.675c.47-.258.995-.482 1.565-.667zm6.728 2.964a7.009 7.009 0 0 0 2.275-1.521 8.376 8.376 0 0 0-1.197-.49 8.853 8.853 0 0 1-.481 1.078 6.688 6.688 0 0 1-.597.933zM8.5 11.909v3.014c.67-.204 1.335-.82 1.887-1.855.143-.268.276-.56.395-.872A12.63 12.63 0 0 0 8.5 11.91zm3.555-.401c.57.185 1.095.409 1.565.667A6.963 6.963 0 0 0 14.982 8.5h-2.49a13.36 13.36 0 0 1-.437 3.008zM14.982 7.5a6.963 6.963 0 0 0-1.362-3.675c-.47.258-.995.482-1.565.667.248.92.4 1.938.437 3.008h2.49zM11.27 2.461c.177.334.339.694.482 1.078a8.368 8.368 0 0 0 1.196-.49 7.01 7.01 0 0 0-2.275-1.52c.218.283.418.597.597.932zm-.488 1.343a7.765 7.765 0 0 0-.395-.872C9.835 1.897 9.17 1.282 8.5 1.077V4.09c.81-.03 1.577-.13 2.282-.287z" />
+                            </svg>
+                            <select class="top-nav-section-navbar-lang justify-content-end">
+
+                                <option class="top-nav-section-navbar-lang-text" value="English">English</option>
+                                <option class="top-nav-section-navbar-lang-text" value="hindi">हिन्दी</option>
+                                <option class="top-nav-section-navbar-lang-text" value="talugu">తెలుగు</option>
+                                <option class="top-nav-section-navbar-lang-text" value="tamil">தமிழ்</option>
+                            </select>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--section 4 plans-->
+    <div id="section4">
+        <div class="sign-up-page ">
+            <div class="sign-up-page-navbar d-flex flex-column justify-content-center">
+                <div class="container-fluid ">
+                    <div class="row">
+                        <div class="sign-up-page-navbar-logo col-9 col-sm-9 col-md-9 col-lg-9 col-xl-9 ">
+
+                            <a href="index.html"> <img
+                                    src="images/logo.png"
+                                    class="sign-up-page-navbar-logo-img" /></a>
+                        </div>
+                        <div class="sign-up-page-navbar-sign col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                            <a href="loginnetflix.html" class="sign-up-page-navbar-sign-text">Sign In</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--section-4 card-->
+
+        <div class="section-4-card d-flex flex-row justify-content-center ">
+            <div class="section-4-card-container ">
+
+                <h2 class="section-3-card-sub-heading">STEP 4 OF 5</h2>
+
+                <h1 class="section-2-card-heading">Choose the plan that's right for you</h1>
+                <p class="section-3-card-detail"><i class="section-3-check-2-icon fa-solid fa-check"></i>&ensp;Watch all
+                    you want. Ad-free.</p>
+                <p class="section-3-card-detail"><i
+                        class="section-3-check-2-icon fa-solid fa-check"></i>&ensp;Recommendations just for you.</p>
+                <p class="section-3-card-detail"><i class="section-3-check-2-icon fa-solid fa-check"></i>&ensp;Change or
+                    cancel your plan anytime.</p>
+
+                <div class="section-4-box-center d-flex flex-row">
+
+                    <div class="section-4-box-1 ">
+                        <h1 class="section-4-box-1-text">Mobile</h1>
+                    </div>
+                    <div class="section-4-box-2">
+                        <h1 class="section-4-box-1-text">Basic</h1>
+                    </div>
+                    <div class="section-4-box-1 ">
+                        <h1 class="section-4-box-1-text">Standard</h1>
+                    </div>
+                    <div class="section-4-box-1 ">
+                        <h1 class="section-4-box-1-text">Premium</h1>
+                    </div>
+                </div>
+
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="benifit-detail col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                            <h1 class="benifit-detail-text">Monthly price</h1>
+                        </div>
+                        <div class="price-detail col-3 col-sm-3 col-md-3 col-lg-3 col-3">
+                            <h1 class="price-detail-text">₹ 149</h1>
+                        </div>
+
+                        <div class="price-detail col-3 col-sm-3 col-md-3 col-lg-3 col-3">
+                            <h1 class="price-detail-text-red">₹ 199</h1>
+                        </div>
+
+                        <div class="price-detail col-3 col-sm-3 col-md-3 col-lg-3 col-3">
+                            <h1 class="price-detail-text">₹ 499</h1>
+                        </div>
+                        <div class="price-detail col-3 col-sm-3 col-md-3 col-lg-3 col-3">
+                            <h1 class="price-detail-text">₹ 649</h1>
+                        </div>
+                        <hr class="hr-line">
+                        <div class="benifit-detail col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                            <h1 class="benifit-detail-text">Video quality</h1>
+                        </div>
+                        <div class="price-detail col-3 col-sm-3 col-md-3 col-lg-3 col-3">
+                            <h1 class="price-detail-text">Good</h1>
+                        </div>
+
+                        <div class="price-detail col-3 col-sm-3 col-md-3 col-lg-3 col-3">
+                            <h1 class="price-detail-text-red">Good</h1>
+                        </div>
+
+                        <div class="price-detail col-3 col-sm-3 col-md-3 col-lg-3 col-3">
+                            <h1 class="price-detail-text">Better</h1>
+                        </div>
+                        <div class="price-detail col-3 col-sm-3 col-md-3 col-lg-3 col-3">
+                            <h1 class="price-detail-text">Best</h1>
+                        </div>
+                        <hr class="hr-line">
+                        <div class="benifit-detail col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                            <h1 class="benifit-detail-text">Resolution</h1>
+                        </div>
+                        <div class="price-detail col-3 col-sm-3 col-md-3 col-lg-3 col-3">
+                            <h1 class="price-detail-text">480p</h1>
+                        </div>
+
+                        <div class="price-detail col-3 col-sm-3 col-md-3 col-lg-3 col-3">
+                            <h1 class="price-detail-text-red">720p</h1>
+                        </div>
+
+                        <div class="price-detail col-3 col-sm-3 col-md-3 col-lg-3 col-3">
+                            <h1 class="price-detail-text">1080p</h1>
+                        </div>
+                        <div class="price-detail col-3 col-sm-3 col-md-3 col-lg-3 col-3">
+                            <h1 class="price-detail-text">4K+HDR</h1>
+                        </div>
+                        <hr class="hr-line">
+                        <div class="benifit-detail col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                            <h1 class="benifit-detail-text">Device you can use to Watch</h1>
+                        </div>
+
+                        <div class="price-detail col-3 col-sm-3 col-md-3 col-lg-3 col-3">
+                            <i class="price-detail-text fa-solid fa-mobile-screen-button"></i>
+                            <h1 class="price-detail-text">phone</h1>
+                        </div>
+
+                        <div class="price-detail col-3 col-sm-3 col-md-3 col-lg-3 col-3">
+                            <i class="price-detail-text-red fa-solid fa-mobile-screen-button"
+                                style="color: #ff0000;"></i>
+                            <h1 class="price-detail-text-red">phone</h1>
+                        </div>
+
+                        <div class="price-detail col-3 col-sm-3 col-md-3 col-lg-3 col-3">
+                            <i class="price-detail-text fa-solid fa-mobile-screen-button"></i>
+                            <h1 class="price-detail-text">phone</h1>
+                        </div>
+                        <div class="price-detail col-3 col-sm-3 col-md-3 col-lg-3 col-3">
+                            <i class="price-detail-text fa-solid fa-mobile-screen-button"></i>
+                            <h1 class="price-detail-text">phone</h1>
+                        </div>
+
+                        <div class="price-detail col-3 col-sm-3 col-md-3 col-lg-3 col-3">
+                            <i class="price-detail-text fa-solid fa-tablet-screen-button"></i>
+                            <h1 class="price-detail-text">Tablet</h1>
+                        </div>
+                        <div class="price-detail col-3 col-sm-3 col-md-3 col-lg-3 col-3">
+                            <i class="price-detail-text-red fa-solid fa-tablet-screen-button"
+                                style="color: #f20707;"></i>
+                            <h1 class="price-detail-text-red">Tablet</h1>
+                        </div>
+
+                        <div class="price-detail col-3 col-sm-3 col-md-3 col-lg-3 col-3">
+                            <i class="price-detail-text fa-solid fa-tablet-screen-button"></i>
+                            <h1 class="price-detail-text">Tablet</h1>
+                        </div>
+
+                        <div class="price-detail col-3 col-sm-3 col-md-3 col-lg-3 col-3">
+                            <i class="price-detail-text fa-solid fa-tablet-screen-button"></i>
+                            <h1 class="price-detail-text">Tablet</h1>
+                        </div>
+
+                        <div class="price-detail col-3 col-sm-3 col-md-3 col-lg-3 col-3">
+
+                        </div>
+                        <div class="price-detail col-3 col-sm-3 col-md-3 col-lg-3 col-3">
+                            <i class="price-detail-text-red fa-solid fa-display" style="color: #ee1111;"></i>
+                            <h1 class="price-detail-text-red">Computer</h1>
+                        </div>
+                        <div class="price-detail col-3 col-sm-3 col-md-3 col-lg-3 col-3">
+                            <i class="price-detail-text fa-solid fa-display"></i>
+                            <h1 class="price-detail-text">Computer</h1>
+                        </div>
+                        <div class="price-detail col-3 col-sm-3 col-md-3 col-lg-3 col-3">
+                            <i class="price-detail-text fa-solid fa-display"></i>
+                            <h1 class="price-detail-text">Computer</h1>
+                        </div>
+                        <div class="price-detail col-3 col-sm-3 col-md-3 col-lg-3 col-3">
+
+                        </div>
+                        <div class="price-detail col-3 col-sm-3 col-md-3 col-lg-3 col-3">
+                            <i class="price-detail-text-red fa-solid fa-tv" style="color: #f81b1b;"></i>
+                            <h1 class="price-detail-text-red">Tv</h1>
+                        </div>
+                        <div class="price-detail col-3 col-sm-3 col-md-3 col-lg-3 col-3">
+                            <i class="price-detail-text fa-solid fa-tv"></i>
+                            <h1 class="price-detail-text">Tv</h1>
+                        </div>
+                        <div class="price-detail col-3 col-sm-3 col-md-3 col-lg-3 col-3">
+                            <i class="price-detail-text fa-solid fa-tv"></i>
+                            <h1 class="price-detail-text">Tv</h1>
+                        </div>
+                        <div class="section-4-footer-detail col-12 col-sm-12 col-md-12 col-lg-12 col-12">
+                            <h1 class="section-4-footer-detail-text">HD (720p), Full HD (1080p), Ultra HD (4K) and HDR
+                                availability subject to your internet service and device capabilities. Not all content
+                                is available in all resolutions. See our <a href="#"
+                                    class="section-4-footer-detail-term">Term of Use</a> for more details.
+                                <br><br>Only people who live with you may use your account. Watch on 4 different devices
+                                at the same time with Premium, 2 with Standard, and 1 with Basic and Mobile.
+                            </h1>
+                        </div>
+                        <button class="section-2-card-button btn btn-danger" onclick="display('section5')">Next</button>
+
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+
+
+
+        <!--footer-section 4-->
+
+        <div class="help-footer d-flex ">
+            <div class="container-fluid">
+                <div class="row">
+
+
+                    <div class="help-footer-contact d-flex col-12 col-sm-12 col-md-12 col-lg-12 col-md-12">
+                        <h1 class="help-footer-text">Questions? Call to Piyush</h1> <a href="#"
+                            class="help-footer-number">+91 94609-94274</a>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3"><a class="help-footer-links" href="#">FAQ
+                        </a></div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3"><a class="help-footer-links" href="#">Term
+                            of Use </a></div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3"><a class="help-footer-links"
+                            href="#">Coroporate information </a></div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3"><a class="help-footer-links" href="#">Help
+                            Center </a></div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3"><a class="help-footer-links"
+                            href="#">Privacy</a></div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3"><a class="help-footer-links"
+                            href="#">Netflix Shop</a></div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3"><a class="help-footer-links" href="#">Cookie
+                            Perferences</a></div>
+                    <div class="help-footer-lang col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                        <button class="top-nav-section-navbar-lang-div"> <svg xmlns="http://www.w3.org/2000/svg"
+                                width="16" height="16" fill="currentColor" class="globe-icon bi bi-globe2"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855-.143.268-.276.56-.395.872.705.157 1.472.257 2.282.287V1.077zM4.249 3.539c.142-.384.304-.744.481-1.078a6.7 6.7 0 0 1 .597-.933A7.01 7.01 0 0 0 3.051 3.05c.362.184.763.349 1.198.49zM3.509 7.5c.036-1.07.188-2.087.436-3.008a9.124 9.124 0 0 1-1.565-.667A6.964 6.964 0 0 0 1.018 7.5h2.49zm1.4-2.741a12.344 12.344 0 0 0-.4 2.741H7.5V5.091c-.91-.03-1.783-.145-2.591-.332zM8.5 5.09V7.5h2.99a12.342 12.342 0 0 0-.399-2.741c-.808.187-1.681.301-2.591.332zM4.51 8.5c.035.987.176 1.914.399 2.741A13.612 13.612 0 0 1 7.5 10.91V8.5H4.51zm3.99 0v2.409c.91.03 1.783.145 2.591.332.223-.827.364-1.754.4-2.741H8.5zm-3.282 3.696c.12.312.252.604.395.872.552 1.035 1.218 1.65 1.887 1.855V11.91c-.81.03-1.577.13-2.282.287zm.11 2.276a6.696 6.696 0 0 1-.598-.933 8.853 8.853 0 0 1-.481-1.079 8.38 8.38 0 0 0-1.198.49 7.01 7.01 0 0 0 2.276 1.522zm-1.383-2.964A13.36 13.36 0 0 1 3.508 8.5h-2.49a6.963 6.963 0 0 0 1.362 3.675c.47-.258.995-.482 1.565-.667zm6.728 2.964a7.009 7.009 0 0 0 2.275-1.521 8.376 8.376 0 0 0-1.197-.49 8.853 8.853 0 0 1-.481 1.078 6.688 6.688 0 0 1-.597.933zM8.5 11.909v3.014c.67-.204 1.335-.82 1.887-1.855.143-.268.276-.56.395-.872A12.63 12.63 0 0 0 8.5 11.91zm3.555-.401c.57.185 1.095.409 1.565.667A6.963 6.963 0 0 0 14.982 8.5h-2.49a13.36 13.36 0 0 1-.437 3.008zM14.982 7.5a6.963 6.963 0 0 0-1.362-3.675c-.47.258-.995.482-1.565.667.248.92.4 1.938.437 3.008h2.49zM11.27 2.461c.177.334.339.694.482 1.078a8.368 8.368 0 0 0 1.196-.49 7.01 7.01 0 0 0-2.275-1.52c.218.283.418.597.597.932zm-.488 1.343a7.765 7.765 0 0 0-.395-.872C9.835 1.897 9.17 1.282 8.5 1.077V4.09c.81-.03 1.577-.13 2.282-.287z" />
+                            </svg>
+                            <select class="top-nav-section-navbar-lang justify-content-end">
+
+                                <option class="top-nav-section-navbar-lang-text" value="English">English</option>
+                                <option class="top-nav-section-navbar-lang-text" value="hindi">हिन्दी</option>
+                                <option class="top-nav-section-navbar-lang-text" value="talugu">తెలుగు</option>
+                                <option class="top-nav-section-navbar-lang-text" value="tamil">தமிழ்</option>
+                            </select>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--section-5 how to pay-->
+    <div id="section5">
+        <div class="sign-up-page ">
+            <div class="sign-up-page-navbar d-flex flex-column justify-content-center">
+                <div class="container-fluid ">
+                    <div class="row">
+                        <div class="sign-up-page-navbar-logo col-9 col-sm-9 col-md-9 col-lg-9 col-xl-9 ">
+
+                            <a href="index.html"> <img
+                                    src="images/logo.png"
+                                    class="sign-up-page-navbar-logo-img" /></a>
+                        </div>
+                        <div class="sign-up-page-navbar-sign col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                            <a href="loginnetflix.html" class="sign-up-page-navbar-sign-text">Sign In</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--section-3 card-->
+
+        <div class="section-5-card d-flex flex-row justify-content-center">
+            <div class="section-5-card-container ">
+                <div class="section-5-top-icon">
+                    <i class="fa-solid fa-shield-halved fa-2xl" style="color: #fb0404;"></i>
+                    <h2 class="section-5-card-sub-heading">STEP 5 OF 7</h2>
+                </div>
+                <h1 class="section-5-card-heading">Choose how to pay</h1>
+                <p class="section-5-card-detail">Your payment is encrypted and you can change your payment method at
+                    anytime.</p>
+                <p class="section-5-card-detail-secure">Secure for peace of mind.<br>
+                    Cancel easily online.</p>
+                <div class="section-5-card-end">
+                    <h1 class="section-5-card-end-text">End-to-end encrypted <i class="fa-solid fa-lock"
+                            style="color: #f2be02;"></i></h1>
+                </div>
+                <button class="section-5-card-button-1 " onclick="display('section6')">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div classs="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                <h1 class="section-5-card-button-text">Credit or Debit Card</h1>
+                            </div>
+                            <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
+                                <img src="https://assets.nflxext.com/siteui/acquisition/payment/ffe/paymentpicker/VISA.png"
+                                    class="section-5-card-button-image" />
+                            </div>
+                            <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
+                                <img src="https://assets.nflxext.com/siteui/acquisition/payment/ffe/paymentpicker/AMEX.png"
+                                    class="section-5-card-button-image" />
+                            </div>
+                            <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
+                                <img src="https://assets.nflxext.com/siteui/acquisition/payment/ffe/paymentpicker/DINERS.png"
+                                    class="section-5-card-button-image" />
+                            </div>
+                            <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
+                                <img src="https://assets.nflxext.com/siteui/acquisition/payment/ffe/paymentpicker/MASTERCARD.png"
+                                    class="section-5-card-button-image" />
+                            </div>
+                            <div class="payment-arrow col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                                <i class="fa-solid fa-angle-right" style="color: #6b6b6b;"></i>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </button>
+                <button class="section-5-card-button-1 d-flex" onclick="display('section7')">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div
+                                classs="section-5-card-button-text-position col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                <h1 class="section-5-card-button-text">UPI Auto</h1>
+                            </div>
+                            <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
+                                <img src="https://assets.nflxext.com/siteui/acquisition/payment/ffe/paymentpicker/BHIM.png"
+                                    class="section-5-card-button-image" />
+                            </div>
+                            <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
+                                <img src="https://assets.nflxext.com/siteui/acquisition/payment/ffe/paymentpicker/PAYTM.png"
+                                    class="section-5-card-button-image" />
+                            </div>
+                            <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
+                                <img src="https://assets.nflxext.com/siteui/acquisition/payment/ffe/paymentpicker/PHONEPE.png"
+                                    class="section-5-card-button-image" />
+                            </div>
+                            <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
+                                <img src="https://assets.nflxext.com/siteui/acquisition/payment/ffe/paymentpicker/AMAZONPAY.png"
+                                    class="section-5-card-button-image" />
+                            </div>
+                            <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
+                                <img src="https://assets.nflxext.com/siteui/acquisition/payment/ffe/paymentpicker/GPAY.png"
+                                    class="section-5-card-button-image" />
+                            </div>
+                            <div class="payment-arrow col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
+                                <i class="fa-solid fa-angle-right" style="color: #6b6b6b;"></i>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </button>
+
+            </div>
+
+        </div>
+
+
+
+
+
+
+        <!--footer-section-->
+
+        <div class="help-footer">
+            <div class="container-fluid">
+                <div class="row">
+
+
+                    <div class="help-footer-contact d-flex col-12 col-sm-12 col-md-12 col-lg-12 col-md-12">
+                        <h1 class="help-footer-text">Questions? Call to Piyush</h1> <a href="#"
+                            class="help-footer-number">+91 94609-94274</a>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3"><a class="help-footer-links" href="#">FAQ
+                        </a></div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3"><a class="help-footer-links" href="#">Term
+                            of Use </a></div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3"><a class="help-footer-links"
+                            href="#">Coroporate information </a></div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3"><a class="help-footer-links" href="#">Help
+                            Center </a></div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3"><a class="help-footer-links"
+                            href="#">Privacy</a></div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3"><a class="help-footer-links"
+                            href="#">Netflix Shop</a></div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3"><a class="help-footer-links" href="#">Cookie
+                            Perferences</a></div>
+                    <div class="help-footer-lang col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                        <button class="top-nav-section-navbar-lang-div"> <svg xmlns="http://www.w3.org/2000/svg"
+                                width="16" height="16" fill="currentColor" class="globe-icon bi bi-globe2"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855-.143.268-.276.56-.395.872.705.157 1.472.257 2.282.287V1.077zM4.249 3.539c.142-.384.304-.744.481-1.078a6.7 6.7 0 0 1 .597-.933A7.01 7.01 0 0 0 3.051 3.05c.362.184.763.349 1.198.49zM3.509 7.5c.036-1.07.188-2.087.436-3.008a9.124 9.124 0 0 1-1.565-.667A6.964 6.964 0 0 0 1.018 7.5h2.49zm1.4-2.741a12.344 12.344 0 0 0-.4 2.741H7.5V5.091c-.91-.03-1.783-.145-2.591-.332zM8.5 5.09V7.5h2.99a12.342 12.342 0 0 0-.399-2.741c-.808.187-1.681.301-2.591.332zM4.51 8.5c.035.987.176 1.914.399 2.741A13.612 13.612 0 0 1 7.5 10.91V8.5H4.51zm3.99 0v2.409c.91.03 1.783.145 2.591.332.223-.827.364-1.754.4-2.741H8.5zm-3.282 3.696c.12.312.252.604.395.872.552 1.035 1.218 1.65 1.887 1.855V11.91c-.81.03-1.577.13-2.282.287zm.11 2.276a6.696 6.696 0 0 1-.598-.933 8.853 8.853 0 0 1-.481-1.079 8.38 8.38 0 0 0-1.198.49 7.01 7.01 0 0 0 2.276 1.522zm-1.383-2.964A13.36 13.36 0 0 1 3.508 8.5h-2.49a6.963 6.963 0 0 0 1.362 3.675c.47-.258.995-.482 1.565-.667zm6.728 2.964a7.009 7.009 0 0 0 2.275-1.521 8.376 8.376 0 0 0-1.197-.49 8.853 8.853 0 0 1-.481 1.078 6.688 6.688 0 0 1-.597.933zM8.5 11.909v3.014c.67-.204 1.335-.82 1.887-1.855.143-.268.276-.56.395-.872A12.63 12.63 0 0 0 8.5 11.91zm3.555-.401c.57.185 1.095.409 1.565.667A6.963 6.963 0 0 0 14.982 8.5h-2.49a13.36 13.36 0 0 1-.437 3.008zM14.982 7.5a6.963 6.963 0 0 0-1.362-3.675c-.47.258-.995.482-1.565.667.248.92.4 1.938.437 3.008h2.49zM11.27 2.461c.177.334.339.694.482 1.078a8.368 8.368 0 0 0 1.196-.49 7.01 7.01 0 0 0-2.275-1.52c.218.283.418.597.597.932zm-.488 1.343a7.765 7.765 0 0 0-.395-.872C9.835 1.897 9.17 1.282 8.5 1.077V4.09c.81-.03 1.577-.13 2.282-.287z" />
+                            </svg>
+                            <select class="top-nav-section-navbar-lang justify-content-end">
+
+                                <option class="top-nav-section-navbar-lang-text" value="English">English</option>
+                                <option class="top-nav-section-navbar-lang-text" value="hindi">हिन्दी</option>
+                                <option class="top-nav-section-navbar-lang-text" value="talugu">తెలుగు</option>
+                                <option class="top-nav-section-navbar-lang-text" value="tamil">தமிழ்</option>
+                            </select>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--section 6 Credit or debit card-->
+
+    <div id="section6">
+        <div class="sign-up-page ">
+            <div class="sign-up-page-navbar d-flex flex-column justify-content-center">
+                <div class="container-fluid ">
+                    <div class="row">
+                        <div class="sign-up-page-navbar-logo col-9 col-sm-9 col-md-9 col-lg-9 col-xl-9 ">
+
+                            <a href="index.html"> <img
+                                    src="images/logo.png"
+                                    class="sign-up-page-navbar-logo-img" /></a>
+                        </div>
+                        <div class="sign-up-page-navbar-sign col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                            <a href="loginnetflix.html" class="sign-up-page-navbar-sign-text">Sign In</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--section-5 card-->
+
+        <div class="section-6-card d-flex flex-row justify-content-center">
+            <div class="section-6-card-container ">
+
+                <h2 class="section-6-card-sub-heading">STEP 3 OF 4</h2>
+
+                <h1 class="section-6-card-heading">Set up your Credit or debit Card</h1>
+                <div class="section-6-card-credit-card-image d-flex">
+                    <img src="https://assets.nflxext.com/siteui/acquisition/payment/ffe/paymentpicker/VISA.png"
+                        class="section-6-card-credit-card-image" />
+                    <img src="https://assets.nflxext.com/siteui/acquisition/payment/ffe/paymentpicker/MASTERCARD.png"
+                        class="section-6-card-credit-card-image" />
+                    <img src="https://assets.nflxext.com/siteui/acquisition/payment/ffe/paymentpicker/AMEX.png"
+                        class="section-6-card-credit-card-image" />
+                    <img src="https://assets.nflxext.com/siteui/acquisition/payment/ffe/paymentpicker/DINERS.png"
+                        class="section-6-card-credit-card-image" />
+                </div>
+                <!--card-detail form-->
+
+                <form>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                <input type="tel" class="section-6-card-credit-card-form-1 form-control "
+                                    placeholder="Card number">
+                                <small class="form-text text-danger mb-3">Please enter a card number.</small>
+                            </div>
+                            <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                                <input type="date" class="section-6-card-credit-card-form-1 form-control "
+                                    placeholder="Expiration date">
+                                <small class="form-text text-danger mb-3 section-6-card-credit-card-form-label">Please
+                                    enter an expiration date.</small>
+                            </div>
+                            <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                                <input type="tel" class="section-6-card-credit-card-form-1 form-control "
+                                    placeholder="CVV">
+                                <small class="form-text text-danger mb-3">Please enter a CVV.</small>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                <input type="text" class="section-6-card-credit-card-form-2 form-control "
+                                    placeholder="First name">
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                <input type="text" class="section-6-card-credit-card-form-2 form-control "
+                                    placeholder="Last name">
+                            </div>
+                            <div class="section-6-price-card d-flex ">
+                                <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                                    <h1 class="section-6-plan-price">₹ 199</h1>
+                                    <h2 class="section-6-plan-name">Basic</h2>
+                                </div>
+                                <div class="section-6-plan-change-div col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                                    <a onclick="display('section4')" class="section-6-plan-change">Change</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <h1 class="section-6-payment-advice">Any payment above ₹ 2000 shall need additional authentication.</h1>
+                <p class="section-6-condition">By checking the checkbox below, you agree to our <a
+                        class="section-6-condition-link" href="#">Terms of Use, Privacy Statement</a>, and that you are
+                    over 18. Netflix will automatically continue your membership and charge the membership fee
+                    (currently ₹ 199/month) to your payment method until you cancel. You may cancel at any time to avoid
+                    future charges.</p>
+                <div class="form-check">
+                    <input class="form-check-input section-6-checkbox" type="checkbox" value=""
+                        id="flexCheckIndeterminate">
+                    <label class="form-check-label section-6-checkbox-label" for="flexCheckIndeterminate">
+                        I agree.
+                    </label>
+                </div>
+                <!--form end-->
+
+                <button class="section-2-card-button btn btn-danger"
+                    onclick="window.location.href='mainnetflix.html';">Start Membership</button>
+            </div>
+
+        </div>
+
+
+
+
+
+
+        <!--footer-section-->
+
+        <div class="help-footer">
+            <div class="container-fluid">
+                <div class="row">
+
+
+                    <div class="help-footer-contact d-flex col-12 col-sm-12 col-md-12 col-lg-12 col-md-12">
+                        <h1 class="help-footer-text">Questions? Call to Piyush</h1> <a href="#"
+                            class="help-footer-number">+91 94609-94274</a>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3"><a class="help-footer-links" href="#">FAQ
+                        </a></div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3"><a class="help-footer-links" href="#">Term
+                            of Use </a></div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3"><a class="help-footer-links"
+                            href="#">Coroporate information </a></div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3"><a class="help-footer-links" href="#">Help
+                            Center </a></div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3"><a class="help-footer-links"
+                            href="#">Privacy</a></div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3"><a class="help-footer-links"
+                            href="#">Netflix Shop</a></div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3"><a class="help-footer-links" href="#">Cookie
+                            Perferences</a></div>
+                    <div class="help-footer-lang col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                        <button class="top-nav-section-navbar-lang-div"> <svg xmlns="http://www.w3.org/2000/svg"
+                                width="16" height="16" fill="currentColor" class="globe-icon bi bi-globe2"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855-.143.268-.276.56-.395.872.705.157 1.472.257 2.282.287V1.077zM4.249 3.539c.142-.384.304-.744.481-1.078a6.7 6.7 0 0 1 .597-.933A7.01 7.01 0 0 0 3.051 3.05c.362.184.763.349 1.198.49zM3.509 7.5c.036-1.07.188-2.087.436-3.008a9.124 9.124 0 0 1-1.565-.667A6.964 6.964 0 0 0 1.018 7.5h2.49zm1.4-2.741a12.344 12.344 0 0 0-.4 2.741H7.5V5.091c-.91-.03-1.783-.145-2.591-.332zM8.5 5.09V7.5h2.99a12.342 12.342 0 0 0-.399-2.741c-.808.187-1.681.301-2.591.332zM4.51 8.5c.035.987.176 1.914.399 2.741A13.612 13.612 0 0 1 7.5 10.91V8.5H4.51zm3.99 0v2.409c.91.03 1.783.145 2.591.332.223-.827.364-1.754.4-2.741H8.5zm-3.282 3.696c.12.312.252.604.395.872.552 1.035 1.218 1.65 1.887 1.855V11.91c-.81.03-1.577.13-2.282.287zm.11 2.276a6.696 6.696 0 0 1-.598-.933 8.853 8.853 0 0 1-.481-1.079 8.38 8.38 0 0 0-1.198.49 7.01 7.01 0 0 0 2.276 1.522zm-1.383-2.964A13.36 13.36 0 0 1 3.508 8.5h-2.49a6.963 6.963 0 0 0 1.362 3.675c.47-.258.995-.482 1.565-.667zm6.728 2.964a7.009 7.009 0 0 0 2.275-1.521 8.376 8.376 0 0 0-1.197-.49 8.853 8.853 0 0 1-.481 1.078 6.688 6.688 0 0 1-.597.933zM8.5 11.909v3.014c.67-.204 1.335-.82 1.887-1.855.143-.268.276-.56.395-.872A12.63 12.63 0 0 0 8.5 11.91zm3.555-.401c.57.185 1.095.409 1.565.667A6.963 6.963 0 0 0 14.982 8.5h-2.49a13.36 13.36 0 0 1-.437 3.008zM14.982 7.5a6.963 6.963 0 0 0-1.362-3.675c-.47.258-.995.482-1.565.667.248.92.4 1.938.437 3.008h2.49zM11.27 2.461c.177.334.339.694.482 1.078a8.368 8.368 0 0 0 1.196-.49 7.01 7.01 0 0 0-2.275-1.52c.218.283.418.597.597.932zm-.488 1.343a7.765 7.765 0 0 0-.395-.872C9.835 1.897 9.17 1.282 8.5 1.077V4.09c.81-.03 1.577-.13 2.282-.287z" />
+                            </svg>
+                            <select class="top-nav-section-navbar-lang justify-content-end">
+
+                                <option class="top-nav-section-navbar-lang-text" value="English">English</option>
+                                <option class="top-nav-section-navbar-lang-text" value="hindi">हिन्दी</option>
+                                <option class="top-nav-section-navbar-lang-text" value="talugu">తెలుగు</option>
+                                <option class="top-nav-section-navbar-lang-text" value="tamil">தமிழ்</option>
+                            </select>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--section-7 UPI AutoPay-->
+    <div id="section7">
+        <div class="sign-up-page ">
+            <div class="sign-up-page-navbar d-flex flex-column justify-content-center">
+                <div class="container-fluid ">
+                    <div class="row">
+                        <div class="sign-up-page-navbar-logo col-9 col-sm-9 col-md-9 col-lg-9 col-xl-9 ">
+
+                            <a href="index.html"> <img
+                                    src="images/logo.png"
+                                    class="sign-up-page-navbar-logo-img" /></a>
+                        </div>
+                        <div class="sign-up-page-navbar-sign col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                            <a href="loginnetflix.html" class="sign-up-page-navbar-sign-text">Sign In</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--section-7 card-->
+
+        <div class="section-2-card d-flex flex-row justify-content-center">
+            <div class="section-2-card-container ">
+
+
+                <h2 class="section-2-card-sub-heading">STEP 6 OF 7</h2>
+                <h1 class="section-2-card-heading">Set up UPI AutoPay</h1>
+                <p class="section-2-card-detail">You can change this recurring payment any time in your settings.</p>
+
+                <!--this dropbox with image using section 6 this code help me chat gpt i am try for learn this-->
+
+
+                <div class="custom-select">
+                    <div class="selected-option" id="selected-option">
+                        Select your UPI app
+                    </div>
+                    <ul class="options-list" id="options-list">
+                        <li data-value="option1">
+                            <img src="https://assets.nflxext.com/siteui/acquisition/payment/ffe/paymentpicker/BHIM.png"
+                                alt="Option 1">
+                            BHIM UPI
+                        </li>
+                        <li data-value="option2">
+                            <img src="https://assets.nflxext.com/siteui/acquisition/payment/ffe/paymentpicker/PAYTM.png"
+                                alt="Option 2">
+                            Paytm
+                        </li>
+                        <li data-value="option3">
+                            <img src="https://assets.nflxext.com/siteui/acquisition/payment/ffe/paymentpicker/PHONEPE.png"
+                                alt="Option 3">
+                            Phonepay
+                        </li>
+                        <li data-value="option4">
+                            <img src="https://assets.nflxext.com/siteui/acquisition/payment/ffe/paymentpicker/AMAZONPAY.png"
+                                alt="Option 4">
+                            Amazon Pay
+                        </li>
+                        <li data-value="option5">
+                            <img src="https://assets.nflxext.com/siteui/acquisition/payment/ffe/paymentpicker/GPAY.png"
+                                alt="Option 4">
+                            Google
+                        </li>
+                        <li data-value="option6">
+                            <img src="https://assets.nflxext.com/ffe/siteui/acquisition/payment/other.png"
+                                alt="Option6">
+                            Other
+                        </li>
+                    </ul>
+                </div>
+                <!--dropbox end-->
+
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <input type="text" id="upi_id" class="section-7-card-upi-form-1 form-control " placeholder="UPI ID">
+                    <small class="form-text text-danger mb-3">Please enter a valid UPI ID.</small>
+                </div>
+                <div class="section-7-card-find-id-div">
+                    <a class="section-7-card-find-id" href="#">
+                        How do I find my UPI ID?
+                    </a>
+                </div>
+
+                <button class="section-2-card-button btn btn-danger" onclick="display('section8')">Next</button>
+            </div>
+
+        </div>
+
+
+
+
+
+
+        <!--footer-section-->
+
+        <div class="help-footer">
+            <div class="container-fluid">
+                <div class="row">
+
+
+                    <div class="help-footer-contact d-flex col-12 col-sm-12 col-md-12 col-lg-12 col-md-12">
+                        <h1 class="help-footer-text">Questions? Call to Piyush</h1> <a href="#"
+                            class="help-footer-number">+91 94609-94274</a>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3"><a class="help-footer-links" href="#">FAQ
+                        </a></div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3"><a class="help-footer-links" href="#">Term
+                            of Use </a></div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3"><a class="help-footer-links"
+                            href="#">Coroporate information </a></div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3"><a class="help-footer-links" href="#">Help
+                            Center </a></div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3"><a class="help-footer-links"
+                            href="#">Privacy</a></div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3"><a class="help-footer-links"
+                            href="#">Netflix Shop</a></div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3"><a class="help-footer-links" href="#">Cookie
+                            Perferences</a></div>
+                    <div class="help-footer-lang col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                        <button class="top-nav-section-navbar-lang-div"> <svg xmlns="http://www.w3.org/2000/svg"
+                                width="16" height="16" fill="currentColor" class="globe-icon bi bi-globe2"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855-.143.268-.276.56-.395.872.705.157 1.472.257 2.282.287V1.077zM4.249 3.539c.142-.384.304-.744.481-1.078a6.7 6.7 0 0 1 .597-.933A7.01 7.01 0 0 0 3.051 3.05c.362.184.763.349 1.198.49zM3.509 7.5c.036-1.07.188-2.087.436-3.008a9.124 9.124 0 0 1-1.565-.667A6.964 6.964 0 0 0 1.018 7.5h2.49zm1.4-2.741a12.344 12.344 0 0 0-.4 2.741H7.5V5.091c-.91-.03-1.783-.145-2.591-.332zM8.5 5.09V7.5h2.99a12.342 12.342 0 0 0-.399-2.741c-.808.187-1.681.301-2.591.332zM4.51 8.5c.035.987.176 1.914.399 2.741A13.612 13.612 0 0 1 7.5 10.91V8.5H4.51zm3.99 0v2.409c.91.03 1.783.145 2.591.332.223-.827.364-1.754.4-2.741H8.5zm-3.282 3.696c.12.312.252.604.395.872.552 1.035 1.218 1.65 1.887 1.855V11.91c-.81.03-1.577.13-2.282.287zm.11 2.276a6.696 6.696 0 0 1-.598-.933 8.853 8.853 0 0 1-.481-1.079 8.38 8.38 0 0 0-1.198.49 7.01 7.01 0 0 0 2.276 1.522zm-1.383-2.964A13.36 13.36 0 0 1 3.508 8.5h-2.49a6.963 6.963 0 0 0 1.362 3.675c.47-.258.995-.482 1.565-.667zm6.728 2.964a7.009 7.009 0 0 0 2.275-1.521 8.376 8.376 0 0 0-1.197-.49 8.853 8.853 0 0 1-.481 1.078 6.688 6.688 0 0 1-.597.933zM8.5 11.909v3.014c.67-.204 1.335-.82 1.887-1.855.143-.268.276-.56.395-.872A12.63 12.63 0 0 0 8.5 11.91zm3.555-.401c.57.185 1.095.409 1.565.667A6.963 6.963 0 0 0 14.982 8.5h-2.49a13.36 13.36 0 0 1-.437 3.008zM14.982 7.5a6.963 6.963 0 0 0-1.362-3.675c-.47.258-.995.482-1.565.667.248.92.4 1.938.437 3.008h2.49zM11.27 2.461c.177.334.339.694.482 1.078a8.368 8.368 0 0 0 1.196-.49 7.01 7.01 0 0 0-2.275-1.52c.218.283.418.597.597.932zm-.488 1.343a7.765 7.765 0 0 0-.395-.872C9.835 1.897 9.17 1.282 8.5 1.077V4.09c.81-.03 1.577-.13 2.282-.287z" />
+                            </svg>
+                            <select class="top-nav-section-navbar-lang justify-content-end">
+
+                                <option class="top-nav-section-navbar-lang-text" value="English">English</option>
+                                <option class="top-nav-section-navbar-lang-text" value="hindi">हिन्दी</option>
+                                <option class="top-nav-section-navbar-lang-text" value="talugu">తెలుగు</option>
+                                <option class="top-nav-section-navbar-lang-text" value="tamil">தமிழ்</option>
+                            </select>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- section 8 confirm your details-->
+    <div id="section8">
+        <div class="sign-up-page ">
+            <div class="sign-up-page-navbar d-flex flex-column justify-content-center">
+                <div class="container-fluid ">
+                    <div class="row">
+                        <div class="sign-up-page-navbar-logo col-9 col-sm-9 col-md-9 col-lg-9 col-xl-9 ">
+
+                            <a href="index.html"> <img
+                                    src="images/logo.png"
+                                    class="sign-up-page-navbar-logo-img" /></a>
+                        </div>
+                        <div class="sign-up-page-navbar-sign col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                            <a href="loginnetflix.html" class="sign-up-page-navbar-sign-text">Sign In</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--section-5 card-->
+
+        <div class="section-6-card d-flex flex-row justify-content-center">
+            <div class="section-6-card-container ">
+
+                <h1 class="section-6-card-heading">Confirm your details</h1>
+
+                <!--card-detail form-->
+
+                <form>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="section-8-price-card d-flex ">
+                                <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                                    <h1 class="section-6-plan-price">₹ 199</h1>
+                                    <h2 class="section-6-plan-name">Basic</h2>
+                                </div>
+                                <div class="section-6-plan-change-div col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                                    <a onclick="display('section4')" class="section-6-plan-change">Change</a>
+                                </div>
+                            </div>
+                            <div class="section-8-price-card-2 d-flex ">
+                                <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                                    <h1 class="section-6-plan-price">UPI AutoPay</h1>
+                                    <h2 class="section-6-plan-name">9460994274@ybl</h2>
+                                </div>
+                                <div class="section-6-plan-change-div col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                                    <a onclick="display('section7')" class="section-6-plan-change">edit</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <h1 class="section-6-payment-advice">Any payment above ₹ 2000 shall need additional authentication.</h1>
+                <p class="section-6-condition">By checking the checkbox below, you agree to our <a
+                        class="section-6-condition-link" href="#">Terms of Use, Privacy Statement</a>, and that you are
+                    over 18. Netflix will automatically continue your membership and charge the membership fee
+                    (currently ₹ 199/month) to your payment method until you cancel. You may cancel at any time to avoid
+                    future charges.</p>
+                <div class="form-check">
+                    <input class="form-check-input section-6-checkbox" type="checkbox" value=""
+                        id="flexCheckIndeterminate">
+                    <label class="form-check-label section-6-checkbox-label" for="flexCheckIndeterminate">
+                        I agree.
+                    </label>
+                </div>
+                <!--form end-->
+
+                <button class="section-2-card-button btn btn-danger"
+                    onclick="window.location.href='mainnetflix.html';">Start Membership</button>
+            </div>
+
+        </div>
+
+
+
+
+
+
+        <!--footer-section-->
+
+        <div class="help-footer">
+            <div class="container-fluid">
+                <div class="row">
+
+
+                    <div class="help-footer-contact d-flex col-12 col-sm-12 col-md-12 col-lg-12 col-md-12">
+                        <h1 class="help-footer-text">Questions? Call to Piyush</h1> <a href="#"
+                            class="help-footer-number">+91 94609-94274</a>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3"><a class="help-footer-links" href="#">FAQ
+                        </a></div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3"><a class="help-footer-links" href="#">Term
+                            of Use </a></div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3"><a class="help-footer-links"
+                            href="#">Coroporate information </a></div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3"><a class="help-footer-links" href="#">Help
+                            Center </a></div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3"><a class="help-footer-links"
+                            href="#">Privacy</a></div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3"><a class="help-footer-links"
+                            href="#">Netflix Shop</a></div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3"><a class="help-footer-links" href="#">Cookie
+                            Perferences</a></div>
+                    <div class="help-footer-lang col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                        <button class="top-nav-section-navbar-lang-div"> <svg xmlns="http://www.w3.org/2000/svg"
+                                width="16" height="16" fill="currentColor" class="globe-icon bi bi-globe2"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855-.143.268-.276.56-.395.872.705.157 1.472.257 2.282.287V1.077zM4.249 3.539c.142-.384.304-.744.481-1.078a6.7 6.7 0 0 1 .597-.933A7.01 7.01 0 0 0 3.051 3.05c.362.184.763.349 1.198.49zM3.509 7.5c.036-1.07.188-2.087.436-3.008a9.124 9.124 0 0 1-1.565-.667A6.964 6.964 0 0 0 1.018 7.5h2.49zm1.4-2.741a12.344 12.344 0 0 0-.4 2.741H7.5V5.091c-.91-.03-1.783-.145-2.591-.332zM8.5 5.09V7.5h2.99a12.342 12.342 0 0 0-.399-2.741c-.808.187-1.681.301-2.591.332zM4.51 8.5c.035.987.176 1.914.399 2.741A13.612 13.612 0 0 1 7.5 10.91V8.5H4.51zm3.99 0v2.409c.91.03 1.783.145 2.591.332.223-.827.364-1.754.4-2.741H8.5zm-3.282 3.696c.12.312.252.604.395.872.552 1.035 1.218 1.65 1.887 1.855V11.91c-.81.03-1.577.13-2.282.287zm.11 2.276a6.696 6.696 0 0 1-.598-.933 8.853 8.853 0 0 1-.481-1.079 8.38 8.38 0 0 0-1.198.49 7.01 7.01 0 0 0 2.276 1.522zm-1.383-2.964A13.36 13.36 0 0 1 3.508 8.5h-2.49a6.963 6.963 0 0 0 1.362 3.675c.47-.258.995-.482 1.565-.667zm6.728 2.964a7.009 7.009 0 0 0 2.275-1.521 8.376 8.376 0 0 0-1.197-.49 8.853 8.853 0 0 1-.481 1.078 6.688 6.688 0 0 1-.597.933zM8.5 11.909v3.014c.67-.204 1.335-.82 1.887-1.855.143-.268.276-.56.395-.872A12.63 12.63 0 0 0 8.5 11.91zm3.555-.401c.57.185 1.095.409 1.565.667A6.963 6.963 0 0 0 14.982 8.5h-2.49a13.36 13.36 0 0 1-.437 3.008zM14.982 7.5a6.963 6.963 0 0 0-1.362-3.675c-.47.258-.995.482-1.565.667.248.92.4 1.938.437 3.008h2.49zM11.27 2.461c.177.334.339.694.482 1.078a8.368 8.368 0 0 0 1.196-.49 7.01 7.01 0 0 0-2.275-1.52c.218.283.418.597.597.932zm-.488 1.343a7.765 7.765 0 0 0-.395-.872C9.835 1.897 9.17 1.282 8.5 1.077V4.09c.81-.03 1.577-.13 2.282-.287z" />
+                            </svg>
+                            <select class="top-nav-section-navbar-lang justify-content-end">
+
+                                <option class="top-nav-section-navbar-lang-text" value="English">English</option>
+                                <option class="top-nav-section-navbar-lang-text" value="hindi">हिन्दी</option>
+                                <option class="top-nav-section-navbar-lang-text" value="talugu">తెలుగు</option>
+                                <option class="top-nav-section-navbar-lang-text" value="tamil">தமிழ்</option>
+                            </select>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script type="text/javascript" src="signupnetflix.js"></script>
+
+    <script type="text/javascript"
+        src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+
+
+</body>
+
+</html>

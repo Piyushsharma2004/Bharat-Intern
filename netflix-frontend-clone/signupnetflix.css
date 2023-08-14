@@ -1,0 +1,585 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.sign-up-page {}
+
+.sign-up-page-navbar {
+    height: 10vh;
+    border: solid;
+    border-bottom-width: 1px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-color: #cfcfcf;
+}
+
+.sign-up-page-navbar-logo {
+    height: 6vh;
+}
+
+.sign-up-page-navbar-logo-img {
+    height: 100%;
+}
+
+.sign-up-page-navbar-sign {
+    text-align-last: right;
+    padding-right: 3%;
+
+}
+
+.sign-up-page-navbar-sign-text {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.all-device-card {
+
+    height: 80vh;
+    width: 100%;
+    text-align: center;
+}
+
+.all-device-card-sub-heading {
+    font-size: 14px;
+}
+
+.all-device-card-heading {
+    font-size: 4vh;
+    font-weight: bold;
+}
+
+.all-device-card-detail {
+    font-size: 3vh;
+}
+
+.all-device-card-button {
+    width: 350px;
+    height: 65px;
+    background-color: #ff0c0c;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.help-footer {
+    background-color: #f3f3f3;
+    height: 50vh;
+    padding-left: 2%;
+    margin-top: 25vh;
+
+}
+
+.help-footer-contact {
+    margin-top: 5%;
+    margin-bottom: 2%;
+
+}
+
+.help-footer-text {
+    font-size: 14px;
+    color: #606060;
+    font-weight: 500;
+}
+
+.help-footer-number {
+    font-size: 14px;
+    color: #606060;
+    font-weight: 500;
+}
+
+.help-footer-links {
+    font-size: 15px;
+    color: #606060;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.help-footer-lang {
+    margin-top: 4%;
+}
+
+
+
+.top-nav-section-navbar-lang-div {
+    border: solid;
+    border-width: 1px;
+    border-color: black;
+    width: 120px;
+    height: 35px;
+    text-align: center;
+    border-radius: 3px;
+    background-color: white;
+    padding-bottom: 3px;
+    margin-right: 110px;
+
+}
+
+.globe-icon {
+    color: black;
+
+}
+
+.top-nav-section-navbar-lang {
+    background-color: transparent;
+    color: #606060;
+    border: none;
+    border-color: transparent;
+    cursor: pointer;
+    user-select: none;
+
+}
+
+.top-nav-section-navbar-lang-text {
+    color: #606060;
+}
+
+.email-form {
+    width: 350px;
+    height: 55px;
+    margin-bottom: 10px;
+    border-color: black;
+}
+
+.password-form {
+    width: 350px;
+    height: 55px;
+    margin-bottom: 30px;
+    border-color: black;
+}
+
+.section-2-card {
+    height: 80vh;
+    position: relative;
+
+}
+
+.section-2-card-container {
+    width: 400px;
+    top: 20%;
+    position: absolute;
+
+    padding-left: 20px;
+}
+
+.section-2-card-sub-heading {
+    font-size: 16px;
+}
+
+.section-2-card-heading {
+    font-size: 30px;
+    font-weight: bold;
+    width: 350px;
+}
+
+.section-2-card-detail {
+    font-size: 20px;
+    width: 350px;
+}
+
+.section-2-card-button {
+    width: 350px;
+    height: 65px;
+    background-color: #ff0c0c;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.section-3-check-1-icon {
+    color: red;
+
+}
+
+.section-3-check-2-icon {
+    color: red;
+}
+
+.section-3-card-sub-heading {
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.section-3-card-detail {
+    font-size: 18px;
+    width: 370px;
+}
+
+
+.section-3-top-icon {
+    width: 100%;
+    text-align: center;
+    padding-right: 20px;
+
+}
+
+.section-4-card {
+    height: 180vh;
+    position: relative;
+
+
+
+}
+
+
+.section-4-card-container {
+    width: 400px;
+    top: 5%;
+
+    display: block;
+    position: absolute;
+
+
+
+    padding-left: 20px;
+}
+
+.section-4-box-center {
+    margin-bottom: 15px;
+}
+
+.section-4-box-1 {
+    height: 60px;
+    background-color: rgb(238, 107, 113);
+    width: 22%;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+
+}
+
+.section-4-box-2 {
+    width: 22%;
+    height: 60px;
+    background-color: rgb(299, 9, 19);
+
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+}
+
+.section-4-box-1-text {
+    font-size: 12px;
+    color: white;
+}
+
+.benifit-detail {
+    text-align: center;
+
+}
+
+.benifit-detail-text {
+    color: #424242;
+    font-size: 14px;
+}
+
+.price-detail {
+    text-align: center;
+}
+
+.price-detail-text {
+    font-size: 14px;
+    color: #424242;
+    padding-bottom: 8px;
+}
+
+.price-detail-text-red {
+    font-size: 14px;
+    color: rgb(299, 9, 19);
+}
+
+.hr-line {
+    color: #424242;
+}
+
+.section-4-footer-detail-text {
+    color: #545454;
+    font-size: 12px;
+    padding-bottom: 20px;
+}
+
+.section-5-card {
+    height: 80vh;
+    position: relative;
+}
+
+.section-5-card-container {
+    width: 400px;
+    padding-right: 10px;
+    top: 20%;
+    position: absolute;
+    text-align: center;
+    padding-left: 20px;
+}
+
+.section-5-top-icon {}
+
+.lock-icon {
+    width: 35px;
+    text-align: center;
+    padding-right: 20px;
+    color: red;
+}
+
+.section-5-card-sub-heading {
+    font-size: 16px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.section-5-card-heading {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.section-5-card-detail {
+    font-size: 18px;
+}
+
+.section-5-card-detail-secure {
+    font-size: 16px;
+    font-weight: 700;
+
+
+}
+
+.section-5-card-end {
+    text-align-last: right;
+    margin-right: 5px;
+    margin-bottom: 5px;
+
+}
+
+.section-5-card-end-text {
+    font-size: 12px;
+
+
+}
+
+.section-5-card-button-1 {
+    background-color: transparent;
+    border: solid;
+    padding: 10px;
+    border-color: #8e8e8e;
+
+    border-radius: 10px;
+    border-width: 1px;
+    margin-bottom: 10px;
+}
+
+.section-5-card-button-text-position {
+    text-align-last: left;
+}
+
+
+.section-5-card-button-text {
+    font-size: 14px;
+}
+
+
+
+.payment-arrow {
+    text-align-last: right;
+}
+.section-6-card{
+   
+}
+
+.section-6-card-credit-card-form-1 {
+    height: 55px;
+}
+
+.section-6-card-credit-card-form-label {
+    font-size: 10px;
+}
+
+.section-6-card-credit-card-form-2 {
+    height: 55px;
+    margin-bottom: 10px;
+}
+
+.section-6-card {
+    height: 100vh;
+    position: relative;
+}
+
+.section-6-card-container {
+    width: 400px;
+    top: 5%;
+    position: absolute;
+    padding-right: 10px;
+    padding-left: 20px;
+}
+
+.section-6-card-sub-heading {
+    font-size: 14px;
+}
+
+.section-6-card-heading {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.section-6-card-credit-card-image {
+    margin-top: 4px;
+    margin-bottom: 5px;
+}
+
+.section-6-price-card {
+
+    background-color: #e2e2e2;
+    height: 55px;
+    width: 360px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+
+}
+
+.section-6-plan-price {
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 5px;
+
+}
+
+.section-6-plan-name {
+    font-size: 10px;
+    color: #676767;
+}
+
+.section-6-plan-change-div {
+    text-align-last: right;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+.section-6-plan-change {
+    text-decoration: none;
+}
+
+.section-6-payment-advice {
+    font-size: 10px;
+    color: #676767;
+}
+
+.section-6-condition {
+    font-size: 11px;
+    color: #676767;
+}
+
+.form-check {
+    margin-bottom: 10px;
+}
+
+.section-6-checkbox {
+    height: 22px;
+    width: 22px;
+}
+
+.section-6-checkbox-label {
+    font-size: 18px;
+    color: #9c9c9c;
+    padding-left: 10px;
+}
+
+.section-7-card-upi-form-1 {
+    height: 55px;
+    width: 370px;
+}
+
+.section-7-card-find-id {
+    text-decoration: none;
+    font-weight: 600;
+    ;
+}
+
+.section-7-card-find-id-div {
+    margin-bottom: 15px
+}
+
+/* this dropbox with image using section 6 this code help me chat gpt*/
+.custom-select {
+    position: relative;
+    display: inline-block;
+    height: 65px;
+    width: 370px;
+    margin-bottom: 10px;
+    background-color: transparent;
+
+}
+
+.selected-option {
+    cursor: pointer;
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 55px;
+}
+
+.options-list {
+    position: absolute;
+    display: none;
+    margin: 0;
+    width: 370px;
+    padding: 0;
+    list-style: none;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-top: none;
+    border-radius: 4px;
+}
+
+.options-list li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.options-list li:hover {
+    background-color: #f9f9f9;
+}
+
+.options-list li img {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.options-list li.selected {
+    font-weight: bold;
+}
+
+.options-list.show {
+    display: block;
+}
+
+/* drop box end section-6*/
+.section-8-price-card {
+    background-color: rgb(241, 241, 241);
+    height: 65px;
+    width: 360px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top: 15px;
+    border-bottom-width: 1px;
+    border-bottom-color: #979797;
+
+}
+
+.section-8-price-card-2 {
+    border-bottom-left-radius: 10px;
+    border-top-width: 1px;
+    border-top-color: #979797;
+    border-bottom-right-radius: 10px;
+    background-color: rgb(241, 241, 241);
+    height: 65px;
+    width: 360px;
+
+    margin-bottom: 15px;
+}
