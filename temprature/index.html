@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature | Piyush</title>
+    <link rel="stylesheet" href="style.css">
+    <link id='favicon' rel="shortcut icon" href="images/new_umberella.webp" type="image/x-png"/>
+    <script src="style.js" defer></script>
+     <!-- Font Awesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+    <h1 class="title">Temperature Converter By Piyush</h1>
+    <nav>
+        <div class="theme-switch-wrapper">
+          <label for="checkbox" class="theme-switch">
+            <input type="checkbox" id="checkbox" checked onclick="myFunction()" />
+            <div class="slider round"></div>
+          </label>
+          <em>Enable Dark Mode!</em>
+        </div>
+      </nav>
+    <div class="units">
+        <div class="panel">
+            <h1 class="bg-unit">°C</h1>
+            <h2>Celsius</h2>
+            <input type="number" id="celsius" value="0"/>
+        </div>
+        <div class="panel">
+            <h1 class="bg-unit">°F</h1>
+            <h2>Fahrenheit</h2>
+            <input type="number" id="fahrenheit" value="0"/>
+        </div>
+        <div class="panel">
+            <h1 class="bg-unit">°K</h1>
+            <h2>Kelvin</h2>
+            <input type="number" id="kelvin" value="0"/>
+        </div>
+    </div>
+
+   
+    
+<script>
+    function myFunction() {
+       var element = document.body;
+       element.classList.toggle("dark-mode");
+    }
+    </script>
+
+    <section class="footer">
+
+        <div class="box-container">
+      
+               <h3>contact info</h3>
+               <p> <i class="fas fa-phone"></i>+91 94609-94274</p>
+               <p> <i class="fas fa-envelope"></i>Piyushsharmanova@gmail.com</p>
+               <p> <i class="fas fa-map-marked-alt"></i>Rajasthan, India-311001</p>
+                
+                <div class="share">
+      
+                    <a href="https://www.linkedin.com/in/piyushsharmanova" class="fab fa-linkedin" aria-label="LinkedIn" target="_blank"></a>
+                    <a href="https://github.com/piyushsharma2004" class="fab fa-github" aria-label="GitHub" target="_blank"></a>
+                    <a href="mailto:piyushsharmanova@gmail.com" class="fas fa-envelope" aria-label="Mail" target="_blank"></a>
+                    <a href="https://twitter.com/piyushs5321" class="fab fa-twitter" aria-label="Twitter" target="_blank"></a>
+                </div>
+            </div>
+       
+      
+        <h1 class="credit">Designed with <i class="fa fa-heart pulse"></i> by <a href="https://www.linkedin.com/in/piyushsharmanova"> Piyush Sharma</a></h1>
+        
+      </section> 
+    
+</body>
+</html>
